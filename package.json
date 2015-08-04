@@ -1,0 +1,25 @@
+{
+  "name": "webpack-module-hot-accept",
+  "version": "1.0.0",
+  "description": "Tiny webpack plugin that adds `module.hot.accept` to the bottom of modules.  Use with something like [`babel-plugin-react-hot`](https://github.com/loggur/babel-plugin-react-hot).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loggur/webpack-module-hot-accept.git"
+  },
+  "keywords": [
+    "webpack",
+    "module",
+    "hot",
+    "accept"
+  ],
+  "author": "timbur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loggur/webpack-module-hot-accept/issues"
+  },
+  "homepage": "https://github.com/loggur/webpack-module-hot-accept#readme"
+}
