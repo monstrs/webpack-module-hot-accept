@@ -10,7 +10,7 @@ module.exports = function (source, map) {
     +"\n"
     +'module.hot.accept(function (err) {'+"\n"
       +'if (err) {'+"\n"
-        +'console.error(err);'+"\n"x  
+        +'console.error(err);'+"\n" 
       +'}'+"\n"
     +'});'+"\n";
 };
