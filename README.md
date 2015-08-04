@@ -3,7 +3,7 @@ Tiny webpack plugin that adds `module.hot.accept` to the bottom of modules.  Use
 
 ## Installation
 ```
-npm install webpack-module-hot-accept --save
+npm install webpack-module-hot-accept --save-dev
 ```
 
 ## Usage
