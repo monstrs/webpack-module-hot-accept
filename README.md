@@ -1,5 +1,5 @@
 # webpack-module-hot-accept
-Tiny webpack plugin that adds `module.hot.accept` to the bottom of modules.  Use with something like [`babel-plugin-react-hot`](https://github.com/loggur/babel-plugin-react-hot).
+Tiny webpack plugin that adds `module.hot.accept` to the bottom of modules if `module.hot` is not already present.
 
 ## Installation
 ```
@@ -28,7 +28,10 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loaders: ['webpack-module-hot-accept']
+        loaders: [
+          'babel',
+          'webpack-module-hot-accept' // add this last
+        ]
       }
     ]
   }
